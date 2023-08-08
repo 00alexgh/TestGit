@@ -11,18 +11,21 @@ namespace TestGithub.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             int a = 0;
+            bool b = true;
             _logger = logger;
         }
 
         public IActionResult Index()
         {
             int b = 0;
+            bool c = true;
             return View();
         }
 
         public IActionResult Privacy()
         {
             int c = 0;
+            bool d = true;
             return View();
         }
 
@@ -30,6 +33,7 @@ namespace TestGithub.Controllers
         public IActionResult Error()
         {
             int d = 0;
+            bool e = true;
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }

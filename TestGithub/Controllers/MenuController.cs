@@ -8,12 +8,14 @@ namespace TestGithub.Controllers
         // GET: MenuController
         public ActionResult Index()
         {
+            int a = 0;
             return View();
         }
 
         // GET: MenuController/Details/5
         public ActionResult Details(int id)
         {
+            int b = 0;
             return View();
         }
 
